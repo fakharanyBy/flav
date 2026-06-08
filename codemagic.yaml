@@ -58,6 +58,14 @@ workflows:
     artifacts:
       - build/**/outputs/**/*.apk
 
+    publishing:
+      email:
+        recipients:
+          - fakharany00@gmail.com
+        notify:
+          success: true
+          failure: true
+
   android-production:
     name: Android Production
     max_build_duration: 60
