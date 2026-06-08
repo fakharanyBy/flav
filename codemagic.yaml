@@ -12,7 +12,8 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       <<: *common_env
-
+      android_signing:
+        - flav_prod_keystore
     scripts:
       - name: Get Flutter packages
         script: |
@@ -38,7 +39,8 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       <<: *common_env
-
+      android_signing:
+        - flav_prod_keystore
     scripts:
       - name: Get Flutter packages
         script: |
