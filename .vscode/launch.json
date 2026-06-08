@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Development",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor", "development",
+        "--dart-define-from-file=dart_defines/development.json"
+      ]
+    },
+    {
+      "name": "Staging",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor", "staging",
+        "--dart-define-from-file=dart_defines/staging.json"
+      ]
+    },
+    {
+      "name": "Production",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor", "production",
+        "--dart-define-from-file=dart_defines/production.json"
+      ]
+    }
+  ]
+}

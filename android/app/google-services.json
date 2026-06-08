@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "109683021373",
+    "project_id": "flav-fda5c",
+    "storage_bucket": "flav-fda5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109683021373:android:2f8688dc1be3691f3d7c54",
+        "android_client_info": {
+          "package_name": "com.example.flav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApfJcqcE5FSw43QmmINuZtnXjWnpZCYNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109683021373:android:04c63bbddb6aca8a3d7c54",
+        "android_client_info": {
+          "package_name": "com.example.flav.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApfJcqcE5FSw43QmmINuZtnXjWnpZCYNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109683021373:android:12fe67e5525cc2bd3d7c54",
+        "android_client_info": {
+          "package_name": "com.example.flav.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApfJcqcE5FSw43QmmINuZtnXjWnpZCYNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
